@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hot Rush Sans';
+  src: url('../fonts/Hot_Rush_Sans.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Hot Rush Sans Striped';
+  src: url('../fonts/Hot_Rush_Sans_Striped_Italic.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Hot Rush Script';
+  src: url('../fonts/Hot_Rush_Script.ttf');
+  font-weight: normal;
+}
+
+.prose > p > code {
+  @apply text-gray-700 bg-gray-100;
+  @apply px-2 py-1 text-xs border border-gray-300 rounded;
+}
