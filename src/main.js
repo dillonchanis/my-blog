@@ -11,5 +11,5 @@ export default function (Vue, { head }) {
   Vue.component('HomeLayout', HomeLayout)
 
   head.htmlAttrs = { lang: 'en', class: 'h-full' }
-  head.bodyAttrs = { class: 'antialiased bg-synthPurple' }
+  head.bodyAttrs = { class: 'antialiased' }
 }

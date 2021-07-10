@@ -57,9 +57,4 @@ export default {
   border-color: #fff;
   box-shadow: 4px 4px 0 #fff;
 }
-
-.banner {
-  background-image: url(/city.png);
-  background-position: 45% 0;
-}
 </style>
