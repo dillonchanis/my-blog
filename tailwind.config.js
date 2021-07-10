@@ -3,7 +3,7 @@ module.exports = {
     './src/**/*.vue',
     './src/**/*.js'
   ],
-  darkMode: false,
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
